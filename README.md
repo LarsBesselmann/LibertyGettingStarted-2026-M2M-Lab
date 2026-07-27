@@ -1173,7 +1173,7 @@ Lets get started\!
 
         gedit ./config.ini
 
-            *** Modify the config.ini as described and illustrated below.
+    Modify the config.ini as described and illustrated below.
 
 
     a.   Modify the value for the “**`UserModifiedGraph`**” property to **`custom_graph.json`**
