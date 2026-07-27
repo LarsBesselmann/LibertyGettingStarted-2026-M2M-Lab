@@ -512,6 +512,16 @@ You will configure the Liberty server to load the Binary instrumenter (minerva-a
 
     <kbd>![](./images/media/image16.png)</kbd>
 
+    If prompted for credentials, enter the following username and password:
+
+    > Username: **user1**
+    > 
+    > Password: **change1me** (that is the number 1 in the password).
+    > 
+    <kbd>![](./images/media/image33b.png)</kbd>
+    Don't save the password.
+
+
 5.  Switch back to the terminal window and Open the console.log file to check that the binary instrumenter was initiated:
 
         head -25 liberty/wlp/usr/servers/DefaultApplicationServer/logs/console.log | grep Minerva
