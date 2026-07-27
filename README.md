@@ -308,7 +308,9 @@ In this section of the lab, you will download and install the mono2micro command
 5.  Run the Mono2Micro **install command,** selecting podman as the container engine:
 
         ./mono2micro install -c podman
-    You need to choose option **`1`** to accept the license:
+
+    When asked, choose the option **`1`** to select the trial version, then the option **`1`**to accept the license. The installation download the required containers: 
+
     <kbd>![](./images/media/mono2micro-install.png)</kbd>
 
 
