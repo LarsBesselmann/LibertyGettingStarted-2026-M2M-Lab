@@ -506,12 +506,6 @@ You will configure the Liberty server to load the Binary instrumenter (minerva-a
     
 4. From the web browser, enter the URL **http://localhost:9080** to launch the DefaultApplication. The main HTML page will be displayed.
 
-    Notice the application only has two main features:
-    - Snoop
-    - Hit Count
-
-    <kbd>![](./images/media/image16.png)</kbd>
-
     If prompted for credentials, enter the following username and password:
 
     > Username: **user1**
@@ -520,6 +514,14 @@ You will configure the Liberty server to load the Binary instrumenter (minerva-a
     > 
     <kbd>![](./images/media/image33b.png)</kbd>
     Don't save the password.
+
+
+
+    Notice the application only has two main features:
+    - Snoop
+    - Hit Count
+
+    <kbd>![](./images/media/image16.png)</kbd>
 
 
 5.  Switch back to the terminal window and Open the console.log file to check that the binary instrumenter was initiated:
